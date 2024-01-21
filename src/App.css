@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.block{
+    border: 1px solid gray;
+    padding: 10px 10px 10px 24px;
+    gap: 25px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.number{
+    width: 240px;
+    padding-left: 13px;
+    background-color: white;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.number input{
+    padding: 7px 25px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(209, 207, 207);
+    margin-right: 10px;
+}
+
+.card{
+    display: block;
+}
+
+.block input{
+    font-size: 20px;
+    width: 115px;
+    appearance: none;
+    border: none;
+    scroll-behavior: none;
+    outline: none;
+}
